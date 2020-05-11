@@ -1,15 +1,18 @@
 #nav {
   font-weight: 700;
 }
+
 #nav .navbar-brand {
     color: #FFF;
     font-size: 1.7em;
 }
+
 #nav .navbar-nav li.nav-item a.nav-link {
     color: #FFF;
 }
+
 #nav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #007bff;
+   text-decoration: overline;
 }
 
 .photo {
@@ -19,19 +22,30 @@
     justify-content: center;
     align-items: center;
 }
+
 .photo .photo-heading {
     font-size: 1.75rem;
     line-height: 1.75rem;
 }
+
 .photo .photo-subheading {
     font-size: 1.25rem;
 }
+
 .photo .photo-avatar {
     width: 70%;
 }
 
 .link-case:hover {
     opacity: 0.7;
+}
+
+.btn-primary {
+  background-color: #DCDCDC !important;
+}
+
+.bg-primary {
+  background-color: #DCDCDC !important;
 }
 
 p {
@@ -44,10 +58,12 @@ p {
   .photo .photo-avatar {
     width: 20%;
   }
+
   .photo .photo-heading {
       font-size: 2.75rem;
       line-height: 2.75rem;
   }
+
   .photo .photo-subheading {
       font-size: 1.25rem;
   }
