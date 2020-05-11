@@ -1,0 +1,59 @@
+#nav {
+  font-weight: 700;
+}
+#nav .navbar-brand {
+    color: #FFF;
+    font-size: 1.7em;
+}
+#nav .navbar-nav li.nav-item a.nav-link {
+    color: #FFF;
+}
+#nav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #007bff;
+}
+
+.photo {
+    height: 100vh;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo .photo-heading {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+}
+.photo .photo-subheading {
+    font-size: 1.25rem;
+}
+.photo .photo-avatar {
+    width: 70%;
+}
+
+.link-case:hover {
+    opacity: 0.7;
+}
+
+p {
+  font-size: 1.10rem;
+  line-height: 1.50rem;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .photo .photo-avatar {
+    width: 20%;
+  }
+  .photo .photo-heading {
+      font-size: 2.75rem;
+      line-height: 2.75rem;
+  }
+  .photo .photo-subheading {
+      font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 1.50rem;
+  }
+}
