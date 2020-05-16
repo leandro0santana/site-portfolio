@@ -3,41 +3,73 @@
 }
 
 #nav .navbar-brand {
-    color: #FFF;
-    font-size: 1.7em;
+  color: #FFF;
+  font-size: 1.7em;
+}
+
+#nav .navbar-nav li.nav-item {
+  margin: 0 5px;
 }
 
 #nav .navbar-nav li.nav-item a.nav-link {
-    color: #FFF;
+  color: #FFF;
+  border-radius: 5px;
+  transition: background-color 1s, color 1s, border 1s;
 }
 
 #nav .navbar-nav li.nav-item a.nav-link:hover {
-   text-decoration: overline;
+  background-color: #FFF;
+  color: #6c757d;
 }
 
 .photo {
-    height: 100vh;
-    padding-top: 4%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-photo{ 
+  transform: scale(0.2);
+  opacity: 0;
+  animation: 1s ease 1s animacaoHeading forwards;
 }
 
 .photo .photo-heading {
-    font-size: 1.75rem;
-    line-height: 1.75rem;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+}
+
+@keyframes animacaoHeading {
+  from {
+
+  }
+  to {
+  transform: scale(1) translate(0);
+  opacity: 1;
+  }
+}
+
+.footer-liner {
+  border: 1px solid #000;
+  margin: 2em;
 }
 
 .photo .photo-subheading {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .photo .photo-avatar {
-    width: 70%;
+  width: 70%;
 }
 
-.link-case:hover {
-    opacity: 0.7;
+.img-portfolio {
+  transition: transform 1s;
+}
+
+.img-portfolio:hover {
+  transform: scale(1.1);
 }
 
 .btn-primary {
@@ -47,6 +79,94 @@
 
 .bg-primary {
   background-color: #363636 !important;
+}
+
+.link {
+  display: inline-flex;
+  font-size: 1.5em;
+  margin: 0 5px;
+  text-decoration: none !important;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.button-whatsapp {
+  display: inline-flex;
+  font-size: 1.5em;
+  text-decoration: none !important;
+  padding: 0.5em;
+  border-radius: 50%;
+  z-index: 9;
+  position: fixed;
+  outline: none;
+  bottom: 0.5em;
+  right: 0.2em;
+}
+
+.whatsapp {
+  background-color: #34af23;
+  color: #FFF;
+  border: 2px solid transparent;
+  transition: background-color 1s, color 1s, border 1s;
+}
+
+.whatsapp:hover {
+  background-color: #FFF;
+  color: #34af23 ;
+  border-color: #34af23;
+}
+
+.github {
+  background-color: #000;
+  color: #FFF;
+  border: 2px solid transparent;
+  transition: background-color 1s, color 1s, border 1s;
+}
+
+.facebook {
+  background-color: #3b5998;
+  color: #FFF;
+  border: 2px solid transparent;
+  padding: 10px 13px;
+  transition: background-color 1s, color 1s, border 1s;
+}
+
+.instagram {
+  background-color: #DB2A76;
+  color: #FFF;
+  border: 2px solid transparent;
+  transition: background-color 1s, color 1s, border 1s;
+}
+
+.linkedin {
+  background-color: #0e76a8;
+  color: #FFF;
+  border: 2px solid transparent;
+  transition: background-color 1s, color 1s, border 1s;
+}
+
+.github:hover {
+  background-color: #FFF;
+  color: #000 ;
+  border-color: #000;
+}
+
+.facebook:hover {
+  background-color: #FFF;
+  color: #3b5998 ;
+  border-color: #3b5998;
+}
+
+.instagram:hover {
+  color: #DB2A76;
+  background-color: #FFF;
+  border-color: #DB2A76;
+}
+
+.linkedin:hover {
+  color: #0e76a8;
+  background-color: #FFF;
+  border-color: #0e76a8;
 }
 
 p {
